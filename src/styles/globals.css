@@ -1,0 +1,27 @@
+:root {
+  --primary-saddle: #8B5A2B;
+  --primary-grass: #2C5F2D;
+  --primary-sand: #E6D5B8;
+  --primary-sky: #87CEEB;
+  --secondary-bridle: #4A2C15;
+  --secondary-hoof: #2C2C2C;
+  --secondary-mane: #C97E5A;
+  --secondary-wood: #DEB887;
+  --accent-ribbon: #FFD700;
+  --accent-rosette: #FF69B4;
+  --accent-success: #228B22;
+  --accent-warning: #FFA500;
+  --neutral-dark: #2C2C2C;
+  --neutral-medium: #8B8B8B;
+  --neutral-light: #F5F5DC;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-light text-neutral-dark font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+}

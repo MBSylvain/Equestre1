@@ -1,0 +1,35 @@
+export const horses = [
+  {
+    id: 1,
+    name: "Étoile",
+    breed: "Selle Français",
+    age: 8,
+    level: "Galop 5-7",
+    discipline: "CSO / Dressage",
+    character: "Élégante, puissante et très franche sur les obstacles. Un cœur d'or.",
+    image: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&q=80&w=800",
+    disponibility: "En pension / Club",
+  },
+  {
+    id: 2,
+    name: "Pégase",
+    breed: "Pur Sang Arabe",
+    age: 6,
+    level: "Confirmé",
+    discipline: "Endurance / Loisir",
+    character: "Vif et endurant. Idéal pour les longues balades en forêt.",
+    image: "https://images.unsplash.com/photo-1598974357801-cb8100748ee8?auto=format&fit=crop&q=80&w=800",
+    disponibility: "Disponible",
+  },
+  {
+    id: 3,
+    name: "Titouan",
+    breed: "Poney Shetland",
+    age: 12,
+    level: "Débutant (Baby-Poney)",
+    discipline: "Loisir / Initiation",
+    character: "Le chouchou des plus petits. Très patient et gourmand !",
+    image: "https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?auto=format&fit=crop&q=80&w=800",
+    disponibility: "Club uniquement",
+  }
+];
