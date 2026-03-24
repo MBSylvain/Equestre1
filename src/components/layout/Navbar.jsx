@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import MobileMenu from './MobileMenu';
+import ThemeToggle from '../ui/ThemeToggle';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,13 +27,17 @@ const Navbar = () => {
             <Link to="/contact" className="hover:text-primary-400 transition-colors">Contact</Link>
           </div>
 
-          {/* Mobile Toggle */}
-          <button 
-            className="md:hidden p-2 text-primary-500 hover:bg-white/10 rounded-lg transition-colors"
-            onClick={() => setIsMenuOpen(true)}
-          >
-            <Menu size={28} />
-          </button>
+          <div className="flex items-center gap-4">
+            <ThemeToggle />
+            
+            {/* Mobile Toggle */}
+            <button 
+              className="md:hidden p-2 text-primary-500 hover:bg-white/10 rounded-lg transition-colors"
+              onClick={() => setIsMenuOpen(true)}
+            >
+              <Menu size={28} />
+            </button>
+          </div>
         </div>
       </nav>
 

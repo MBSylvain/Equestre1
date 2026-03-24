@@ -1,27 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --primary-saddle: #8B5A2B;
-  --primary-grass: #2C5F2D;
-  --primary-sand: #E6D5B8;
-  --primary-sky: #87CEEB;
-  --secondary-bridle: #4A2C15;
-  --secondary-hoof: #2C2C2C;
-  --secondary-mane: #C97E5A;
-  --secondary-wood: #DEB887;
-  --accent-ribbon: #FFD700;
-  --accent-rosette: #FF69B4;
-  --accent-success: #228B22;
-  --accent-warning: #FFA500;
-  --neutral-dark: #2C2C2C;
-  --neutral-medium: #8B8B8B;
-  --neutral-light: #F5F5DC;
+  /* Thème Tradition (Terre) - Default */
+  --color-primary: #f5ae19;
+  --color-primary-text: #312305;
+  --color-secondary: #3b6eff;
+  --color-forest: #1a3b2e;
+  --color-green: #2c5f2d;
+  --color-sand: #e6d5b8;
+  --color-earth: #8b5a2b;
+  --color-bg: #f5f5dc;
+  --color-text: #2c2c2c;
+  --color-text-muted: #8b8b8b;
+  --shadow-color: rgba(139, 90, 43, 0.2);
+}
+
+.theme-royal {
+  --color-primary: #bf9b30;
+  --color-primary-text: #0d1b2a;
+  --color-secondary: #1b263b;
+  --color-forest: #0d1b2a;
+  --color-green: #1b263b;
+  --color-sand: #e0e1dd;
+  --color-earth: #415a77;
+  --color-bg: #ffffff;
+  --color-text: #0d1b2a;
+  --color-text-muted: #778da9;
+  --shadow-color: rgba(13, 27, 42, 0.1);
+}
+
+.theme-nordic {
+  --color-primary: #7c9673;
+  --color-primary-text: #22223b;
+  --color-secondary: #4a4e69;
+  --color-forest: #22223b;
+  --color-green: #9a8c98;
+  --color-sand: #c9ada7;
+  --color-earth: #9a8c98;
+  --color-bg: #f2e9e4;
+  --color-text: #22223b;
+  --color-text-muted: #9a8c98;
+  --shadow-color: rgba(34, 34, 59, 0.1);
 }
 
 @layer base {
   body {
-    @apply bg-neutral-light text-neutral-dark font-sans antialiased;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-heading font-semibold;
+    @apply bg-[var(--color-bg)] text-[var(--color-text)] font-sans antialiased transition-colors duration-500;
   }
 }
