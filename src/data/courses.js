@@ -1,29 +1,53 @@
+import classique from "../assets/classique.jpg";
+import showmanship from "../assets/showmanship.jpg";
+import balade from "../assets/balade equestre.jpg";
+import stage from "../assets/stage.jpg";
 export const courses = [
   {
     id: 1,
-    title: "Baby Poney",
-    age: "3 - 6 ans",
-    level: "Éveil",
-    description: "Premiers contacts, brossage et équilibre ludique sur le poney.",
-    price: "18€ / séance",
-    image: "https://images.unsplash.com/photo-1469033019974-296bcac17438?auto=format&fit=crop&q=80&w=800"
+    title: "Équitation Western - Reining",
+    age: "Dès 7 ans",
+    level: "Tous niveaux",
+    description: "Discipline reine du Western : découvrez le contrôle précis, les cercles et les arrêts glissés.",
+    price: "Consulter sur place",
+    image: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: 2,
-    title: "Cours Galop 1-3",
-    age: "7 - 14 ans",
-    level: "Débutant",
-    description: "Apprentissage des bases : direction, allure et soins du cheval.",
-    price: "25€ / séance",
-    image: "https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?auto=format&fit=crop&q=80&w=800"
+    title: "Équitation Classique",
+    age: "Enfants / Adultes",
+    level: "Tous niveaux",
+    description: "Cours de dressage et d'obstacle classiques pour une formation équestre complète.",
+    price: "Consulter sur place",
+    image: classique
   },
+  
   {
     id: 3,
-    title: "Perfectionnement",
-    age: "Adultes / Ados",
-    level: "Galop 4-7",
-    description: "Dressage avancé, CSO, préparation aux examens fédéraux.",
-    price: "30€ / séance",
-    image: "https://images.unsplash.com/photo-1493246318656-5bfd42b268b0?auto=format&fit=crop&q=80&w=800"
+    title: "Showmanship & Grooming",
+    age: "Tous âges",
+    level: "Débutant",
+    description: "Apprenez à présenter votre cheval à pied et à en prendre soin selon les standards Western.",
+    price: "Consulter sur place",
+    image: showmanship
+  }, 
+  {
+    id: 4,
+    title: "Balade à cheval",
+    age: "Tous âges",
+    level: "Débutant",
+    description: "Promenade à cheval dans la forêt.",
+    price: "Consulter sur place",
+    image: balade
+  },
+  {
+    id: 5,
+    title: "Stage d'équitation",
+    age: "Tous âges",
+    level: "Débutant",
+    description: "Stage d'équitation pendant les vacances scolaires.",
+    price: "Consulter sur place",
+    image: stage
   }
+
 ];

@@ -5,14 +5,14 @@ import { Check } from 'lucide-react';
 const Tarifs = () => {
   const packs = [
     {
-      name: "Découverte",
+      name: "Western Découverte",
       price: "150€",
       period: "/ 5 séances",
       description: "Idéal pour faire ses premiers pas en toute sérénité.",
       features: ["Cours collectifs", "Équipement fourni", "Assurance comprise", "Valable 3 mois"]
     },
     {
-      name: "Passionné",
+      name: "Cavalier Passion",
       price: "240€",
       period: "/ 10 séances",
       description: "Le meilleur rapport qualité/prix pour progresser.",
@@ -20,7 +20,7 @@ const Tarifs = () => {
       featured: true
     },
     {
-      name: "Annuel Club",
+      name: "Abonnement LPFW",
       price: "690€",
       period: "/ an",
       description: "Pour les cavaliers qui font partie de la famille.",
@@ -34,7 +34,7 @@ const Tarifs = () => {
         <AnimatedSection className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-display text-nature-forest mb-4">Tarifs & Abonnements</h1>
           <p className="text-lg text-neutral-dark max-w-2xl mx-auto">
-            Chez nous, la passion est accessible. Choisissez la formule qui correspond à votre rythme.
+            Chez Le Petit Far West, la passion est accessible. Choisissez la formule qui correspond à votre rythme.
           </p>
         </AnimatedSection>
 

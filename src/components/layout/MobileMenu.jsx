@@ -61,9 +61,9 @@ const MobileMenu = ({ isOpen, onClose }) => {
             </nav>
 
             <div className="mt-auto pt-12 border-t border-nature-sand">
-              <p className="text-nature-forest font-bold mb-2 font-display">Centre Équestre</p>
-              <p className="text-neutral-medium text-sm">123 Chemin des Écuries</p>
-              <p className="text-neutral-medium text-sm">01 23 45 67 89</p>
+              <p className="text-nature-forest font-bold mb-2 font-display">Le Petit Far West</p>
+              <p className="text-neutral-medium text-sm">CD 34 La Culotte, 77181 Le Pin</p>
+              <p className="text-neutral-medium text-sm">06 07 09 65 63</p>
             </div>
           </motion.div>
         </>

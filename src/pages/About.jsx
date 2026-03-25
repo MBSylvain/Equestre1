@@ -3,6 +3,7 @@ import AnimatedSection from '../components/ui/AnimatedSection';
 import { team } from '../data/team';
 import Card from '../components/ui/Card';
 import { Heart, Shield, Award, Users } from 'lucide-react';
+import entreclub from "../assets/entreclub.jpg";
 
 const About = () => {
   const values = [
@@ -15,8 +16,8 @@ const About = () => {
   return (
     <div className="pt-24 pb-20 bg-nature-sand/5">
       <Helmet>
-        <title>Notre Club - Centre Équestre</title>
-        <meta name="description" content="L'histoire, les valeurs et l'équipe passionnée du Centre Équestre. Un établissement dédié au bien-être animal et à l'excellence pédagogique." />
+        <title>Notre Club - Le Petit Far West</title>
+        <meta name="description" content="L'histoire, les valeurs et l'équipe passionnée du Petit Far West. Un établissement dédié à l'équitation Western et classique depuis 1996." />
       </Helmet>
       <div className="container mx-auto px-6">
         {/* Story Section */}
@@ -24,7 +25,7 @@ const About = () => {
           <AnimatedSection className="lg:w-1/2">
             <h1 className="text-4xl md:text-6xl font-display text-nature-forest mb-6">Notre Histoire</h1>
             <p className="text-xl text-neutral-dark mb-6 leading-relaxed">
-              Fondé en 1995, le Centre Équestre est né d'une volonté simple : partager la passion de l'équitation dans un cadre respectueux et authentique.
+              Fondé en 1996, Le Petit Far West est né d'une volonté simple : partager la passion de l'équitation dans un cadre respectueux et authentique.
             </p>
             <p className="text-lg text-neutral-dark leading-relaxed">
               D'abord une petite écurie familiale, nous avons grandi au fil des années pour devenir un établissement de référence dans la région, tout en préservant l'esprit de proximité et d'écoute qui nous caractérise.
@@ -33,7 +34,7 @@ const About = () => {
           <AnimatedSection delay={0.2} className="lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden shadow-equestrian border-8 border-white group">
               <img 
-                src="https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?auto=format&fit=crop&q=80&w=800"
+                src={entreclub}
                 alt="Notre centre" 
                 className="w-full h-[450px] object-cover transition-transform duration-700 group-hover:scale-110"
               />

@@ -35,15 +35,15 @@ const Contact = () => {
   return (
     <div className="pt-24 pb-20 bg-nature-sand/5">
       <Helmet>
-        <title>Contactez-nous - Centre Équestre</title>
-        <meta name="description" content="Une question, une réservation ou une demande de devis ? Contactez l'équipe du Centre Équestre par téléphone, email ou formulaire." />
+        <title>Contact - Le Petit Far West</title>
+        <meta name="description" content="Une question, une réservation ou une demande de devis ? Contactez l'équipe de Le Petit Far West par téléphone, email ou formulaire." />
       </Helmet>
       <div className="container mx-auto px-6">
         <AnimatedSection className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-display text-nature-forest mb-4">Contactez-nous</h1>
+          <h1 className="text-4xl md:text-6xl font-display text-nature-forest mb-4">Contactez Le Petit Far West</h1>
           <p className="text-lg text-neutral-dark max-w-2xl mx-auto">
-            Une question sur nos cours, nos pensions ou une réservation ? 
-            L'équipe du Centre Équestre est à votre écoute.
+            Une question sur nos cours Western, nos pensions ou une réservation ? 
+            L'équipe du Petit Far West est à votre écoute.
           </p>
         </AnimatedSection>
 
@@ -60,7 +60,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-nature-forest">Notre Adresse</h3>
-                    <p className="text-neutral-dark">123 Chemin des Écuries, 75000 Val-de-Marne</p>
+                    <p className="text-neutral-dark">CD 34 La Culotte, 77181 Le Pin</p>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-nature-forest">Téléphone</h3>
-                    <p className="text-neutral-dark">01 23 45 67 89</p>
+                    <p className="text-neutral-dark">06 07 09 65 63</p>
                   </div>
                 </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-nature-forest">Email</h3>
-                    <p className="text-neutral-dark">contact@centre-equestre.fr</p>
+                    <p className="text-neutral-dark">lepetitfarwest@hotmail.fr</p>
                   </div>
                 </div>
 

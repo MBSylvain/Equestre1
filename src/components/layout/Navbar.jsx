@@ -12,8 +12,8 @@ const Navbar = () => {
       <nav className="bg-nature-forest text-white py-4 px-6 shadow-md sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center">
           <Link to="/" className="text-2xl font-display font-bold text-primary-500 flex items-center gap-2">
-            <span className="hidden sm:inline">Centre Équestre</span>
-            <span className="sm:hidden">CE</span>
+            <span className="hidden sm:inline">Le Petit Far West</span>
+            <span className="sm:hidden">LPFW</span>
           </Link>
 
           <div className="hidden md:flex space-x-6">

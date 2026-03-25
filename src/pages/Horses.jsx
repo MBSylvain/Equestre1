@@ -24,8 +24,8 @@ const Horses = () => {
   return (
     <div className="pt-24 pb-20 min-h-screen bg-nature-sand/10">
       <Helmet>
-        <title>Nos Chevaux - Centre Équestre</title>
-        <meta name="description" content="Faites connaissance avec nos chevaux et poneys. De la noble Étoile au malicieux Titouan, trouvez votre partenaire idéal." />
+        <title>Nos Chevaux - Le Petit Far West</title>
+        <meta name="description" content="Faites connaissance avec nos chevaux et poneys. Découvrez les partenaires qui font la vie de notre club Western au Pin." />
       </Helmet>
       <div className="container mx-auto px-6">
         <AnimatedSection className="mb-12 text-center md:text-left">

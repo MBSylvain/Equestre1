@@ -10,19 +10,19 @@ const Home = () => {
   return (
     <div className="animate-fade-in">
       <Helmet>
-        <title>Centre Équestre - Passion, Éthique & Excellence</title>
-        <meta name="description" content="Découvrez notre centre équestre : cours d'équitation, pensions pour chevaux, stages et passage des galops dans un cadre naturel exceptionnel." />
+        <title>Le Petit Far West - Poney Club & Centre Équestre</title>
+        <meta name="description" content="Découvrez Le Petit Far West : équitation Western (Reining, Bétail), cours classiques, mini-ferme et événements dans un cadre authentique au Pin." />
       </Helmet>
       <Hero />
       
       {/* Introduction Section */}
       <section className="py-20 px-6 container mx-auto">
         <AnimatedSection className="text-center max-w-3xl mx-auto">
-          <h2 className="text-primary-600 font-heading text-lg uppercase tracking-widest mb-2 font-bold">Depuis 1995</h2>
+          <h2 className="text-primary-600 font-heading text-lg uppercase tracking-widest mb-2 font-bold">Depuis 1996</h2>
           <h1 className="text-4xl md:text-5xl font-display text-nature-forest mb-6">Un Havre de Paix entre Terre et Forêt</h1>
           <p className="text-xl text-neutral-dark leading-relaxed">
-            Situé au cœur de la vallée, notre centre équestre propose une expérience immersive accessible à tous.
-            Du premier contact à la compétition, partagez notre passion pour le plus noble des partenaires.
+            Situé au Pin, Le Petit Far West propose une expérience équestre unique aux accents Western.
+            Du premier contact à la compétition, partagez notre passion pour le cheval.
           </p>
         </AnimatedSection>
       </section>
