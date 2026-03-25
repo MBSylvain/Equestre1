@@ -1,6 +1,3 @@
-import stetson from "../assets/cheval3.jpg";
-import pokemon from "../assets/cheval1.jpg";
-import jument from "../assets/cheval4.jpg";
 export const horses = [
   {
     id: 1,
@@ -10,7 +7,7 @@ export const horses = [
     level: "Intermédiaire",
     discipline: "Reining",
     character: "Un partenaire fiable et spécialisé dans les disciplines Western.",
-    image: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&q=80&w=800",
+    image: "/assets/cheval4.jpg",
     disponibility: "Club",
   },
   {
@@ -21,8 +18,8 @@ export const horses = [
     level: "Tous niveaux",
     discipline: "Classique / Loisir",
     character: "Polyvalent et calme, idéal pour l'apprentissage du classique.",
-    image: stetson,
-    disponibility: "Club",  
+    image: "/assets/cheval3.jpg",
+    disponibility: "Club",
   },
   {
     id: 3,
@@ -32,10 +29,9 @@ export const horses = [
     level: "Débutant",
     discipline: "Initiation",
     character: "Le favori des enfants pour découvrir l'équitation en toute sécurité.",
-    image: pokemon,
+    image: "/assets/cheval1.jpg",
     disponibility: "Club uniquement",
-  }
-  ,
+  },
   {
     id: 4,
     name: "jument",
@@ -44,7 +40,7 @@ export const horses = [
     level: "Débutant",
     discipline: "Dressage",
     character: "Le favori des enfants pour découvrir l'équitation en toute sécurité.",
-    image: jument,
+    image: "/assets/cheval4.jpg",
     disponibility: "Club uniquement",
   }
 ];

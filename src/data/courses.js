@@ -1,7 +1,3 @@
-import classique from "../assets/classique.jpg";
-import showmanship from "../assets/showmanship.jpg";
-import balade from "../assets/balade equestre.jpg";
-import stage from "../assets/stage.jpg";
 export const courses = [
   {
     id: 1,
@@ -10,7 +6,7 @@ export const courses = [
     level: "Tous niveaux",
     description: "Discipline reine du Western : découvrez le contrôle précis, les cercles et les arrêts glissés.",
     price: "Consulter sur place",
-    image: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&q=80&w=800"
+    image: "/assets/westernabriter.webp"
   },
   {
     id: 2,
@@ -19,7 +15,7 @@ export const courses = [
     level: "Tous niveaux",
     description: "Cours de dressage et d'obstacle classiques pour une formation équestre complète.",
     price: "Consulter sur place",
-    image: classique
+    image: "/assets/classique.jpg"
   },
   
   {
@@ -29,7 +25,7 @@ export const courses = [
     level: "Débutant",
     description: "Apprenez à présenter votre cheval à pied et à en prendre soin selon les standards Western.",
     price: "Consulter sur place",
-    image: showmanship
+    image: "/assets/Showmanship.jpg"
   }, 
   {
     id: 4,
@@ -38,7 +34,7 @@ export const courses = [
     level: "Débutant",
     description: "Promenade à cheval dans la forêt.",
     price: "Consulter sur place",
-    image: balade
+    image: "/assets/Balade equestre.jpg"
   },
   {
     id: 5,
@@ -47,7 +43,6 @@ export const courses = [
     level: "Débutant",
     description: "Stage d'équitation pendant les vacances scolaires.",
     price: "Consulter sur place",
-    image: stage
+    image: "/assets/stage.jpg"
   }
-
 ];

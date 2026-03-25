@@ -3,7 +3,6 @@ import AnimatedSection from '../components/ui/AnimatedSection';
 import { team } from '../data/team';
 import Card from '../components/ui/Card';
 import { Heart, Shield, Award, Users } from 'lucide-react';
-import entreclub from "../assets/entreclub.jpg";
 
 const About = () => {
   const values = [
@@ -34,7 +33,7 @@ const About = () => {
           <AnimatedSection delay={0.2} className="lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden shadow-equestrian border-8 border-white group">
               <img 
-                src={entreclub}
+                src="/assets/entreclub.jpg"
                 alt="Notre centre" 
                 className="w-full h-[450px] object-cover transition-transform duration-700 group-hover:scale-110"
               />
